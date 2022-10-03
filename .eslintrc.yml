@@ -1,0 +1,49 @@
+env:
+  browser: true
+  es2021: true
+  jest/globals: true
+extends:
+  - eslint:recommended
+  - plugin:react/recommended
+  - plugin:react/jsx-runtime
+  - plugin:@typescript-eslint/recommended
+  - plugin:jest/recommended
+overrides: []
+parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+plugins:
+  - react
+  - '@typescript-eslint'
+  - jest
+rules:
+  no-shadow: off
+  "@typescript-eslint/no-shadow": warn
+  no-use-before-define: off
+  "@typescript-eslint/no-use-before-define": error
+  react/jsx-filename-extension:
+    - warn
+    - extensions:
+        - .tsx
+  complexity:
+    - error
+    - 10
+  no-await-in-loop: warn
+  no-eval: error
+  no-implied-eval: error
+  prefer-promise-reject-errors: warn
+  "react/jsx-uses-react": warn
+  quotes:
+    - warn
+    - single
+  jsx-quotes:
+    - warn
+    - prefer-double
+settings:
+  react:
+    pragma: React
+    version: detect
+ignorePatterns:
+  - "**/*.test.tsx"
+  - "**/*.test.ts"
