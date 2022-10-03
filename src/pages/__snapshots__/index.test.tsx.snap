@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index renders correctly 1`] = `
+<main
+  style={
+    {
+      "color": "#232129",
+      "fontFamily": "-apple-system, Roboto, sans-serif, serif",
+      "padding": 96,
+    }
+  }
+>
+  <h1
+    style={
+      {
+        "marginBottom": 64,
+        "marginTop": 0,
+        "maxWidth": 320,
+      }
+    }
+  >
+    Chat app
+  </h1>
+  <p
+    style={
+      {
+        "marginBottom": 48,
+      }
+    }
+  >
+    ...
+  </p>
+</main>
+`;
