@@ -40,6 +40,9 @@ rules:
   jsx-quotes:
     - warn
     - prefer-double
+  semi:
+    - warn
+    - always
 settings:
   react:
     pragma: React

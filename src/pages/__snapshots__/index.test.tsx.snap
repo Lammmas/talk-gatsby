@@ -21,14 +21,5 @@ exports[`Index renders correctly 1`] = `
   >
     Chat app
   </h1>
-  <p
-    style={
-      {
-        "marginBottom": 48,
-      }
-    }
-  >
-    ...
-  </p>
 </main>
 `;

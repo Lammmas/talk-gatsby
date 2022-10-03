@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat renders correctly 1`] = `
+<div
+  style={
+    {
+      "height": "500px",
+    }
+  }
+/>
+`;
